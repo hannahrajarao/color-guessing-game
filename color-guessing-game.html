@@ -10,11 +10,14 @@
         <p>Hit "Display a color" to start</p>
         <div class="inline">
         <button onclick="displayNewColor('target-color')">Display a color</button>
-        <div id="target-color"></div>
-        <input type="number" min="0" max="255" id="red"/>
-        <input type="number" min="0" max="255" id="green"/>
-        <input type="number" min="0" max="255" id="blue"/>
-        <button onclick="checkAnswer()">Check Answer</button>
+            <div class="color-input">
+                <label for="red">R:</label>
+                <input type="number" min="0" max="255" value="0" id="red"/>
+                <label for="green">G:</label>
+                <input type="number" min="0" max="255" value="0" id="green"/>
+                <label for="blue">B:</label>
+                <input type="number" min="0" max="255" value="0" id="blue"/>
+                <button onclick="checkAnswer()">Check Answer</button>
         <div id="answer"></div>
         <div id="score"></div>
         <div>
