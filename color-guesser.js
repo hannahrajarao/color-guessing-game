@@ -32,10 +32,10 @@ function checkAnswer() {
 
 }
 
-function clearInputs() {
-    document.getElementById("red").value = '';
-    document.getElementById("green").value = '';
-    document.getElementById("blue").value = '';
+function resetInputs() {
+    document.getElementById("red").value = 0;
+    document.getElementById("green").value = 0;
+    document.getElementById("blue").value = 0;
 }
 
 function getInputColor() {
