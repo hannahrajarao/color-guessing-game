@@ -24,9 +24,10 @@ function displayNewColor(elementId) {
 }
 
 function checkAnswer() {
-    document.getElementById("answer").innerHTML = answer;
+    document.getElementById("answer").innerHTML = "The correct answer is " + answer;
     document.getElementById("score").innerHTML = "Your score: "+getScore();
     document.getElementById('your-color-text').style.display = 'block';
+    document.getElementById('your-color-text').innerHTML = "Your color would be:"
     displayColor(getInputColor(), 'your-color');
 
 }

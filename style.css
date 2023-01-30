@@ -6,3 +6,6 @@
 input {
     width: 50px;
 }
+#your-color-text {
+    display: hidden;
+}
