@@ -1,7 +1,12 @@
+body {
+    margin-left: 20px;
+}
 #target-color,
 #your-color {
     width: 200px;
     height: 200px;
+    margin: 10px;
+    margin-left: 0px;
 }
 input {
     width: 50px;
