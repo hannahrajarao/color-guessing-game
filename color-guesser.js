@@ -15,6 +15,7 @@ function displayColor(color, elementId) {
 }
 
 function displayNewColor(elementId) {
+    document.getElementById("answer").innerHTML = '';
     document.getElementById('your-color-text').style.display = 'none';
     displayColor('white', 'your-color');
     resetInputs();
