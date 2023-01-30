@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Guessing Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Color Guessing Game</h1>
+        <button onclick="displayNewColor('target-color')">Display a color</button>
+        <div id="target-color"></div>
+        <input type="number" min="0" max="255" id="red"/>
+        <input type="number" min="0" max="255" id="green"/>
+        <input type="number" min="0" max="255" id="blue"/>
+        <button onclick="checkAnswer()">Check Answer</button>
+        <div id="answer"></div>
+        <div id="score"></div>
+        <div>
+            <div id="your-color-text">Your color would be:</div>
+            <div id="your-color"></div>
+        </div>
+        <script src="color-guesser.js"></script>
+    </body>
+</html>
