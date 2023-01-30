@@ -17,7 +17,7 @@ function displayColor(color, elementId) {
 function displayNewColor(elementId) {
     document.getElementById('your-color-text').style.display = 'none';
     displayColor('white', 'your-color');
-    clearInputs();
+    resetInputs();
     document.getElementById("score").innerHTML = ""
     answer = chooseRandomColor();
     displayColor(answer, elementId);
