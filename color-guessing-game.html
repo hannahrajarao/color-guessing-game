@@ -9,7 +9,7 @@
         <p>A game where you have to guess the RGB color code for a given color. Values go from 0-255</p>
         <p>Hit "Display a color" to start</p>
         <div class="inline">
-        <button onclick="displayNewColor('target-color')">Display a color</button>
+            <button onclick="displayNewColor('target-color')">Display a color</button>
             <div class="color-input">
                 <label for="red">R:</label>
                 <input type="number" min="0" max="255" value="0" id="red"/>
@@ -18,6 +18,10 @@
                 <label for="blue">B:</label>
                 <input type="number" min="0" max="255" value="0" id="blue"/>
                 <button onclick="checkAnswer()">Check Answer</button>
+            </div>
+        </div>
+        
+        <div id="target-color"></div>
         <div id="answer"></div>
         <div id="score"></div>
         <div>
